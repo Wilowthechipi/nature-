@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maravillas de la Naturaleza</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e0f7fa;
+        }
+        header {
+            background-color: #00796b;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #004d40;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #00332c;
+        }
+        .container {
+            padding: 20px;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .gallery img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+        footer {
+            background-color: #00796b;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Maravillas de la Naturaleza</h1>
+        <p>Explora la belleza natural de nuestro planeta</p>
+    </header>
+    
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#galeria">Galería</a>
+        <a href="#fauna">Fauna y Flora</a>
+        <a href="#conservacion">Conservación</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <section id="inicio" class="container">
+        <h2>Bienvenidos a la Naturaleza</h2>
+        <p>La naturaleza nos ofrece paisajes y ecosistemas asombrosos. Desde majestuosas montañas hasta profundos océanos, nuestro mundo está lleno de vida. Aquí exploraremos algunos de los aspectos más fascinantes de nuestro entorno natural.</p>
+    </section>
+
+    <section id="galeria" class="container">
+        <h2>Galería de Imágenes</h2>
+        <div class="gallery">
+            <img src="https://via.placeholder.com/300x200" alt="Bosque">
+            <img src="https://via.placeholder.com/300x200" alt="Montaña">
+            <img src="https://via.placeholder.com/300x200" alt="Río">
+            <img src="https://via.placeholder.com/300x200" alt="Desierto">
+        </div>
+    </section>
+
+    <section id="fauna" class="container">
+        <h2>Fauna y Flora</h2>
+        <p>El mundo natural está lleno de diversidad. En cada rincón del planeta, encontramos una variedad de especies, desde los animales más pequeños hasta las plantas más grandes. La biodiversidad es esencial para la salud de nuestro ecosistema y para el bienestar de la humanidad.</p>
+    </section>
+
+    <section id="conservacion" class="container">
+        <h2>Consejos de Conservación</h2>
+        <p>La conservación del medio ambiente es responsabilidad de todos. Aquí algunos consejos para ayudar a proteger nuestro planeta:</p>
+        <ul>
+            <li>Reducir el uso de plásticos</li>
+            <li>Reciclar y reutilizar</li>
+            <li>Ahorrar agua</li>
+            <li>Plantar árboles</li>
+            <li>Apoyar causas ambientales</li>
+        </ul>
+    </section>
+
+    <section id="contacto" class="container">
+        <h2>Contacto</h2>
+        <p>Si tienes alguna pregunta o quieres colaborar en proyectos de conservación, no dudes en ponerte en contacto con nosotros.</p>
+        <p>Email: contacto@naturaleza.com</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Maravillas de la Naturaleza. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
